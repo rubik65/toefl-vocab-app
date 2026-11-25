@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Full-bleed dark background (opaque for iOS & maskable compatibility) -->
+  <rect width="512" height="512" fill="#0F172A" />
+
+  <!-- Subtle inner surface panel -->
+  <rect x="40" y="40" width="432" height="432" rx="88" fill="#1E293B" stroke="#334155" stroke-width="4" />
+
+  <!-- Primary blue icon badge -->
+  <rect x="116" y="96" width="280" height="244" rx="56" fill="#60A5FA" />
+
+  <!-- Amber accent bookmark ribbon aligned cleanly inside flat top edge -->
+  <path d="M 304 96 L 336 96 L 336 144 L 320 132 L 304 144 Z" fill="#FBBF24" />
+
+  <!-- Open book vector mark (matching Header.tsx motif) -->
+  <g fill="none" stroke="#0F172A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 176 158 L 228 158 A 28 28 0 0 1 256 186 L 256 284 A 18 18 0 0 0 238 266 L 176 266 Z" />
+    <path d="M 336 158 L 284 158 A 28 28 0 0 0 256 186 L 256 284 A 18 18 0 0 1 274 266 L 336 266 Z" />
+  </g>
+
+  <!-- Crisp app label inside safe zone -->
+  <text
+    x="256"
+    y="418"
+    text-anchor="middle"
+    font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif"
+    font-size="56"
+    font-weight="800"
+    letter-spacing="4"
+    fill="#F1F5F9"
+  >TOEFL</text>
+</svg>

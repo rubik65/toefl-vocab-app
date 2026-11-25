@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TOEFL Vocab Master</string>
+    <string name="title_activity_main">TOEFL Vocab Master</string>
+    <string name="package_name">com.toefl.vocabmaster</string>
+    <string name="custom_url_scheme">com.toefl.vocabmaster</string>
+</resources>
